@@ -1,19 +1,18 @@
 # MyLinuxShell
 
 Wrote my own Linux shell in C. A shell interpreter, often just called a shell or command line interpreter, is a program that continually loops, accepting user input.  The shell interprets the user’s input to execute programs, run built-in functions, etc.  Here is a high-level pseudocode sketch of the behavior of a shell:
-
-	while true {
-		read user input
-		if input is built-in command
-      			handle it
-    		else if user input is a program in path
- 	    		fork child process
- 	    		wait for child process to complete
-    		else
-	    		error
-    	}
-
-
+``` c
+while true {
+  read user input
+  if input is built-in command
+    handle it
+  else if user input is a program in path
+    fork child process
+    wait for child process to complete
+  else
+    error
+}
+```
 ## Command List
 * exit Usage: exit
 * help Usage: help
