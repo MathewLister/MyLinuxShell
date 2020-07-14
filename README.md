@@ -5,13 +5,13 @@ Wrote my own Linux shell in C. A shell interpreter, often just called a shell or
 	while true {
 		read user input
 		if input is built-in command
-      handle it
-    else if user input is a program in path
- 	    fork child process
- 	    wait for child process to complete
-    else
-	    error
-    }
+      			handle it
+    		else if user input is a program in path
+ 	    		fork child process
+ 	    		wait for child process to complete
+    		else
+	    		error
+    	}
 
 
 ## Command List
