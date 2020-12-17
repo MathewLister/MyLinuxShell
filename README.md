@@ -29,4 +29,4 @@ Note:
   Default PATH variable is set to /bin. If you want to execute a non-built-in command
   use setpath to overwrite PATH variable for a new place to look for executables.
 
-  parameters in [] are optional, parsameters in <> are required. The | (pipe) means “or.”
+  parameters in [] are optional, parameters in <> are required. The | (pipe) means “or.”
